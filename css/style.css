@@ -1,0 +1,87 @@
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+     font-family: 'Poppins', sans-serif;
+    background-color: rgb(248, 249, 250);
+}
+
+#home
+{
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+#home .text h1 {
+    font-weight: 800px;
+    font-size: 50px;
+   
+}
+
+#home .text p{
+    letter-spacing: 5px;
+    font-size: 50px;
+    line-height: 1.2;
+}
+#service .row .card-body i{
+    background-color: rgb(248, 249, 250);
+    transition: all,3s;
+}  
+#service .row .card-body i:hover{
+    background-color: black;
+    color:white;
+}
+/*#works .nav-pills .nav-link{
+    all:unset;
+    cursor: pointer;
+    background-color: rgb(248, 249, 250);
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    font-weight:50px;
+
+}*/
+
+#works .icon{
+    top:120%;
+    
+}
+#works .image:hover .layer{
+    transition: 1s;
+}
+#works .image:hover .layer{
+    background-color: rgb(248, 249, 250);
+    border: 5px ;
+}
+#works .image:hover .icon{
+    top:50%;
+    padding-right: 40px;
+  
+}
+#works .image i ,#contact .icon i{
+    transition: all,3s;
+}
+#works .image:hover i:hover ,#contact .icon i:hover{
+    background-color: black;
+    color: white;
+}
+h3{
+    font-weight: 900;
+    font-size: 40px;
+}
+#blog .card img{
+    transition: all,3s;
+}
+
+#blog .card img:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+    
